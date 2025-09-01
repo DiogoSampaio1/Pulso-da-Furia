@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Seção inicial com logo */
+#hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    position: relative;
+}
+
+#hero img {
+    width: 200px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 10;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+/* Seções */
+section {
+    min-height: 100vh;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#characters { background: #2c3e50; color: #ecf0f1; }
+#locations { background: #34495e; color: #ecf0f1; }
+#story { background: #16a085; color: #fff; }
+#clans { background: #8e44ad; color: #fff; }
+#organizations { background: #c0392b; color: #fff; }
+#unknown { background: #f1c40f; color: #111; }
+
+/* Animação de fadeIn */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
