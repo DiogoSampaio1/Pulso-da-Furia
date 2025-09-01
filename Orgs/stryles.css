@@ -35,78 +35,43 @@ nav a:hover {
   color: #f39c12;
 }
 
-#clans-container {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-}
-
-.org-section {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  width: 100%;
-}
-
-.divider {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.divider img {
-  width: 120px;
-  height: auto;
-  opacity: 0.9;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(243, 156, 18, 0.6);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: rgba(0,0,0,0.8);
-}
-
-.divider img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 30px rgba(243, 156, 18, 0.8);
-}
-
-
-.clans-grid {
+#orgs-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
   justify-items: center;
-  width: 100%;
+  margin-top: 40px;
 }
 
-.clan {
+.org {
   background: #222;
-  border-radius: 12px;
-  padding: 15px;
+  border-radius: 16px;
+  padding: 40px;
   cursor: pointer;
-  transition: transform 0.3s ease;
-  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 380px;
+  text-align: center;
 }
 
-.clan:hover {
-  transform: scale(1.05);
+.org:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 35px rgba(255,140,0,0.8);
 }
 
-.clan img {
-  width: 100%;
+.org img {
+  width: 200px;
   height: auto;
-  border-radius: 8px;
+  margin-bottom: 20px;
+  border-radius: 16px;
 }
 
-.nome {
-  margin-top: 10px;
-  font-size: 18px;
+.org-name {
+  font-size: 26px;
   font-weight: bold;
 }
 
+
+/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -124,6 +89,7 @@ nav a:hover {
   background: #222;
   border-radius: 12px;
   display: flex;
+  flex-wrap: wrap;
   padding: 20px;
   max-width: 900px;
   width: 80%;
@@ -135,6 +101,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .modal-left img {

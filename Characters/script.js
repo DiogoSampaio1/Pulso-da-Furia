@@ -229,6 +229,40 @@ const personagensData = [
     
     <p><strong>Objetivo:</strong> Tornar-se uma mestre em ilusões capaz de rivalizar com qualquer guerreiro veterano e proteger os interesses do Clã Veythar dentro do Ordo Vexillum.</p>
   `
+  },
+  {
+  name: "Sevrin Veynar",
+  image: "/images/Sevrin Veynar.png",
+  info: `
+    <p><strong>Idade:</strong> 38 anos</p>
+    <p><strong>Clã:</strong> Nexary (sem clã)</p>
+    <p><strong>Poderes:</strong> Domínio da Ressonância, Sevrin consegue absorver, distorcer, amplificar ou anular qualquer técnica adversária, transformando a força dos outros contra eles próprios; <Br> Ataques inimigos podem ser convertidos em diferentes formas de energia ou destruí-los por excesso de força.</p>
+
+    <p><strong>Descrição:</strong></p>
+    <p>Sevrin Veynar é o Líder Supremo do Ordo Vexillum, ascendido sem pertencer a nenhum clã. Reconhecido como um “génios anómalo”, domina batalhas de forma quase inatingível, manipulando o fluxo de energia vital dos adversários com precisão letal. A sua presença impõe respeito absoluto e temor silencioso, sendo visto como inevitável e invencível no campo de combate.</p>
+    <p>Combina cálculo, controlo e visão estratégica, avaliando sempre o inimigo antes de agir, transformando cada confronto numa demonstração da sua supremacia incontestável.</p>
+
+    <p><strong>Personalidade:</strong> Calmo, metódico e extremamente calculista; imponente e silencioso, transmitindo autoridade absoluta; encarna a inevitabilidade: todos sabem que enfrentá-lo é quase impossível.</p>
+    
+    <p><strong>Objetivo:</strong> Manter a supremacia do Ordo Vexillum sobre os clãs e o universo, assegurando que a organização continue como força dominante, enquanto molda guerreiros, alianças e conquistas ao seu comando.</p>
+  `
+  },
+  {
+  name: "Tharion Ignivar",
+  image: "/images/tharion ignivar.png",
+  info: `
+    <p><strong>Idade:</strong> 45 anos</p>
+    <p><strong>Clã:</strong> Ignivar</p>
+    <p><strong>Poderes:</strong> Mestre em destruição directa e combate absoluto; força física sobre-humana, velocidade impressionante e domínio letal de energia de aura; Especialista em combate corpo a corpo e estratégias de terror.</p>
+
+    <p><strong>Descrição:</strong></p>
+    <p>Tharion é o Vice-Comandante dos temidos Oblivionis, uma organização secreta de assassinos e terroristas cósmicos. Lidera com mão de ferro as divisões de elite do clã Ignivar, espalhando medo e respeito por onde passa. Reconhecido pela sua brutalidade e eficiência, é capaz de subjugar qualquer inimigo com força e táctica combinadas, mantendo a hierarquia rígida que rege os Oblivionis: apenas os mais fortes comandam.</p>
+    <p>Apesar de não ser o Líder Supremo, a sua presença impõe respeito absoluto; soldados e capitães das oito divisões seguem as suas ordens sem questionar. Conhecido por punir falhas com severidade, Tharion acredita que o poder se conquista e mantém pela força, e que a intimidação é uma arma tão letal quanto qualquer lâmina.</p>
+
+    <p><strong>Personalidade:</strong> Calculista, implacável e disciplinado, com uma aura que combina autoridade e terror. Não hesita em destruir aliados ou inimigos que falhem, mostrando que apenas os fortes sobrevivem e comandam nos Oblivionis.</p>
+    
+    <p><strong>Objetivo:</strong> Consolidar o poder do clã Ignivar dentro dos Oblivionis, eliminar ameaças e manter a supremacia da organização pelo medo e pela força.</p>
+  `
   }
 ];
 
