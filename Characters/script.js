@@ -3,6 +3,7 @@ const personagensData = [
   {
     name: "Diogo Kaelum",
     image: "/images/Diogo Kaelum.png",
+    modalImage: "/images/Diogo Kaelum_mask.png",
     info: `
       <p><strong>Idade:</strong> 9 anos (início do da história)</p>
       <p><strong>Clã:</strong> Kaelum</p>
@@ -18,6 +19,7 @@ const personagensData = [
   {
     name: "Deymar Kaelum",
     image: "/images/Deymar Kaelum.png",
+    modalImage: "/images/Deymar Kaelum_mask.png",
     info: `
     <p><strong>Idade:</strong> 35 anos</p>
     <p><strong>Clã:</strong> Kaelum</p>
@@ -32,6 +34,7 @@ const personagensData = [
   {
     name: "Serenya Kaelum",
     image: "/images/Serenya Kaelum.png",
+    modalImage: "/images/Serenya Kaelum_mask.png",
     info: `
     <p><strong>Idade:</strong> 34 anos</p>
     <p><strong>Clã:</strong> Kaelum</p>
@@ -49,6 +52,7 @@ const personagensData = [
   {
     name: "Lysera Kaelum",
     image: "/images/Lysera Kaelum.png",
+    modalImage: "/images/Lysera Kaelum_mask.png",
     info: `
     <p><strong>Idade:</strong> 11 anos</p>
     <p><strong>Clã:</strong> Kaelum</p>
@@ -66,6 +70,7 @@ const personagensData = [
   {
     name: "Kaelith Kaelum",
     image: "/images/Kaelith Kaelum.png",
+    modalImage: "/images/Kaelith Kaelum_mask.png",
     info: `
     <p><strong>Idade:</strong> 14 anos</p>
     <p><strong>Clã:</strong> Kaelum</p>
@@ -97,6 +102,7 @@ const personagensData = [
   {
   name: "Harruk Dravoryn",
   image: "/images/Harruk Dravoryn.png",
+  modalImage: "/images/Harruk Dravoryn_mask.png",
   info: `
     <p><strong>Idade:</strong> 52 anos</p>
     <p><strong>Clã:</strong> Dravoryn</p>
@@ -114,6 +120,7 @@ const personagensData = [
   {
   name: "Ardyn Kaelum",
   image: "/images/Ardyn Kaelum.png",
+  modalImage: "/images/Ardyn Kaelum_mask.png",
   info: `
     <p><strong>Idade:</strong> 74 anos</p>
     <p><strong>Clã:</strong> Kaelum</p>
@@ -148,6 +155,7 @@ const personagensData = [
   {
   name: "Rothgar Dravoryn",
   image: "/images/Rothgar Dravoryn.png",
+  modalImage: "/images/Rothgar Dravoryn_mask.png",
   info: `
     <p><strong>Idade:</strong> 46 anos</p>
     <p><strong>Clã:</strong> Dravoryn</p>
@@ -301,7 +309,7 @@ function gerarPersonagens() {
 // Função para abrir modal com animação
 function abrirModal(personagem) {
   modal.style.display = 'flex';
-  modalImg.src = personagem.image;
+  modalImg.src = personagem.modalImage || personagem.image;
   modalName.textContent = personagem.name;
   modalInfo.innerHTML = personagem.info;
 
