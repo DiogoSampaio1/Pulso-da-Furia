@@ -1,52 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enciclopédia Pulso da Fúria</title>
-    <link rel="icon" href="/images/Pulso da Fúria_Logo.png" type="image/png">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enciclopédia Pulso da Fúria</title>
+  <link rel="icon" href="/images/Pulso da Fúria_Logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <nav>
-        <a href="/index.html">História</a>
-        <a href="/Characters/index.html">Personagens</a>
-        <a href="/Clans/index.html">Clãs</a>
-        <a href="/Locations/index.html">Locais</a>
-        <a href="/Orgs/index.html">Organizações</a>
-        <a href="#unknown">???</a>
-    </nav>
+  <nav>
+    <a href="/index.html">História</a>
+    <a href="/Characters/index.html">Personagens</a>
+    <a href="/Clans/index.html">Clãs</a>
+    <a href="/Locations/index.html">Locais</a>
+    <a href="/Orgs/index.html">Organizações</a>
+  </nav>
 
-    <section id="hero">
-        <img src="/images/Pulso da Fúria_Logo.png" alt="Logo da História">
-        <h1>Bem-vindo à História do Pulso de Fúria</h1>
-    </section>
+  <section id="hero">
+    <div class="hero-content">
+      <img src="/images/Pulso da Fúria_Logo.png" alt="Logo da História" class="hero-logo">
+      <h1>Bem-vindo à História do Pulso de Fúria</h1>
+      <p>A jornada das organizações, clãs e heróis ao longo dos séculos.</p>
+      <a href="#timeline" class="cta">Explorar a Timeline</a>
+    </div>
+  </section>
 
-    <section id="story">
-        <div>História</div>
-    </section>
+  <section class="timeline-section">
+    <h2>Linha Temporal</h2>
+    <div class="timeline" id="timeline"></div>
+  </section>
 
-    <section id="characters">
-        <div>Personagens</div>
-    </section>
-
-    <section id="locations">
-        <div>Locais</div>
-    </section>
-
-    <section id="clans">
-        <div>Clans</div>
-    </section>
-
-    <section id="organizations">
-        <div>Organizações</div>
-    </section>
-
-    <section id="unknown">
-        <div>Algo ainda não definido</div>
-    </section>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
