@@ -33,6 +33,54 @@ const timelineData = [
         <p>No fim, Ardyn aproximou-se de Sevrin num gesto silencioso de reconhecimento. A batalha terminou sem humilhação, mas a mensagem era clara: <strong>Sevrin seria o Líder Supremo da Ordo Vexillum</strong>, um poder capaz de redefinir o futuro do universo.</p>
         </div>
     `
+  },
+  {
+    year: "🌌 2014",
+    title: "O Começo da História",
+    desc: "No coração do clã Kaelum, Diogo inicia o seu treino sob o peso da família.",
+    full: `
+      <div class="full-content">
+        <h3>🌌 O Início da História</h3>
+        <p><em>No coração do clã Kaelum, cada passo é moldado pelo peso do legado.</em></p>
+
+        <p><strong>O Legado:</strong> O clã Kaelum era conhecido pela sua ligação única ao <em>Pulso</em>, 
+        uma herança transmitida de geração em geração. 
+        Deymar Kaelum, líder firme e exigente, e Serenya Kaelum, símbolo de serenidade e equilíbrio, 
+        tinham três filhos: <span style="color:#ffeaa7">Kaelith</span>, o primogénito disciplinado e promissor; 
+        <span style="color:#81ecec">Lysera</span>, de espírito livre e destreza natural; 
+        e <span style="color:#fab1a0">Diogo</span>, o mais novo, cujo caminho parecia o mais incerto.</p>
+
+        <p><strong>O Primeiro Treino:</strong> Naquele dia, Diogo acordou ao som do chamado para o treino. 
+        No campo, <span style="color:#55efc4">Betch Kaelum</span>, veterano respeitado, guiava os jovens. 
+        O exercício era <em>sentir o batimento do vento</em>, simples para alguns, impossível para ele. 
+        Tentou, respirou fundo, concentrou-se, mas nada. 
+        O vento permanecia indiferente, e cada falha aumentava a sua frustração.</p>
+
+        <p><strong>À Mesa:</strong> Ao jantar, Serenya ofereceu-lhe palavras de conforto, 
+        enquanto Deymar observava em silêncio. 
+        O olhar frio e pesado do pai dizia mais do que qualquer repreensão. 
+        Naquele instante, Diogo compreendeu o fardo do seu apelido: 
+        <em>ser Kaelum era viver entre expectativas e a sombra de irmãos que já brilhavam.</em></p>
+      </div>
+    `
+  },
+  {
+    year: "🛡️ 2014",
+    title: "Lição com Kaedra",
+    desc: "Diogo observa a habilidade da amiga Kaedra e encontra inspiração para continuar a treinar.",
+    full: `
+      <div class="full-content">
+        <p>Diogo acordou com o sol a filtrar-se pela janela, mas desta vez não se levantou para o treino. 
+        Sentiu-se pesado e decidiu que precisava de algum ar fresco. 
+        Caminhou até ao distrito onde vivia <span style="color:#81ecec">Kaedra Dravoryn</span>, filha de <span style="color:#fab1a0">Rothgar Dravoryn</span> do clã militarista.</p>
+
+        <p>No campo de treino, Kaedra movia-se com graça e precisão. Transformava o antebraço numa lâmina de osso negra, desferindo golpes contra pequenas rochas espalhadas pelo chão. Diogo observava, impressionado.</p>
+
+        <p>Quando Kaedra deu por ele, sorriu suavemente e ofereceu-lhe orientação. Mostrou movimentos ofensivos e defensivos, alternando entre ataques e bloqueios com rapidez e fluidez. Cada salto, cada giro e cada impacto fazia vibrar o chão e o ar, demonstrando a harmonia entre força, agilidade e controlo.</p>
+
+        <p>Diogo sentiu inspiração. Não era apenas força ou técnica, mas concentração, paciência e coragem que permitiam dominar o poder. Naquele momento, decidiu que não iria desistir, mesmo que demorasse mais do que os outros.</p>
+      </div>
+    `
   }
 ];
 
